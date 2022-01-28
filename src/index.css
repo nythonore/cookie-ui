@@ -1,13 +1,106 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	width: 100%;
+	height: 100%;
+	background: #d4c0fe;
+	font-size: 14px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+	margin: 0;
+}
+
+.border-rd-4 {
+	border-radius: 6px;
+}
+
+.text-primary {
+	color: #002cf4 !important;
+}
+
+.text-grey {
+	color: #ccc;
+}
+
+.bg-primary {
+	background: #002cf4 !important;
+}
+
+.bg-warning {
+	background: #ffe600 !important;
+}
+
+.card-title {
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.card-content-large {
+	font-size: 26px;
+	font-weight: 900;
+	color: #000000;
+}
+
+.card-content-md {
+	font-size: 21px;
+	font-weight: 900;
+	color: #000000;
+}
+
+.card-btn {
+	padding: 12px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.card-fixed {
+	width: 25.5%;
+	height: 95vh;
+	position: fixed;
+	overflow: scroll;
+	padding-bottom: 60px !important;
+
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.card-fixed::-webkit-scrollbar {
+	display: none;
+}
+
+.card-fixed-middle {
+	margin-left: 13%;
+}
+
+.card-fixed-last {
+	margin-left: 53.7%;
+}
+
+.count-card {
+	width: 30px;
+	height: 30px;
+	color: #ffffff;
+	background: #002cf4;
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 920px) {
+	.card-fixed {
+		width: 100%;
+		height: auto;
+		position: initial;
+		padding-bottom: 30px !important;
+	}
+
+	.card-fixed::-webkit-scrollbar {
+		display: none;
+	}
+
+	.card-fixed-middle {
+		margin-left: 0;
+	}
+
+	.card-fixed-last {
+		margin-left: 0;
+	}
 }
