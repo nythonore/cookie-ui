@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 body {
 	width: 100%;
 	height: 100%;
 	background: #d4c0fe;
 	font-size: 14px;
+	font-family: 'Electrolize', sans-serif;
 }
 
 p {
@@ -37,7 +40,7 @@ p {
 
 .card-content-large {
 	font-size: 26px;
-	font-weight: 900;
+	font-weight: bolder;
 	color: #000000;
 }
 
