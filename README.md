@@ -3,7 +3,7 @@
 This repository contains code for Cookie UI in React and Bootstrap.\
 view demo: https://cookie-ui.nythonore.me
 
-![alt text](https://nythonore.me/work/cookie.png)
+![alt text](https://res.cloudinary.com/elab/image/upload/v1650554148/nythonore/works/kj0cl2khwcctujhsn3xk.png)
 
 ### Prerequisites
 
